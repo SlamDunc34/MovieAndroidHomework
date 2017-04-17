@@ -29,6 +29,8 @@ public class Movies {
         return ranking;
     }
 
+
+
     private void setupTitlesArray(){
         String[] titlesToAdd = {
                 "Four Lions",
@@ -42,3 +44,34 @@ public class Movies {
                 "Fargo",
                 "Belleville Rendezvous"
         };
+
+    private void setupGenresArray() {
+        String[] genresToAdd = {
+                "Comedy",
+                "Horror",
+                "Action",
+                "Drama",
+                "Animation",
+                "Crime",
+                "Musical",
+                "Thriller",
+                "Historical Drama",
+                "Family"
+        };
+
+    private void setupRankingsArray() {
+        int[] rankingsToAdd = {
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+        };
+    }
+}
+

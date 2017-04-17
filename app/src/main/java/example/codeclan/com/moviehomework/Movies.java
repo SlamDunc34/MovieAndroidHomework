@@ -15,6 +15,23 @@ public class Movies {
 
     }
 
+    private void setupTitlesArray(){
+        String[] titlesToAdd = {
+                "Four Lions",
+                "City of God",
+                "Home Alone 2",
+                "Step Brothers",
+                "Restless Natives",
+                "Jurassic Park",
+                "The Room",
+                "Whiplash",
+                "Fargo",
+                "Belleville Rendezvous"
+        };
+
+
+    }
+
     public String getTitle() {
         return title;
     }

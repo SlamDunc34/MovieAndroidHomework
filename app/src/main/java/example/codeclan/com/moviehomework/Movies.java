@@ -9,25 +9,10 @@ public class Movies {
         private String genre;
         private double ranking;
 }
-    public Movie(String title, String genre, double ranking){
+    public Movies(String title, String genre, double ranking){
         this.title = title;
         this.genre = genre;
-
-    }
-
-    private void setupTitlesArray(){
-        String[] titlesToAdd = {
-                "Four Lions",
-                "City of God",
-                "Home Alone 2",
-                "Step Brothers",
-                "Restless Natives",
-                "Jurassic Park",
-                "The Room",
-                "Whiplash",
-                "Fargo",
-                "Belleville Rendezvous"
-        };
+        this.ranking = ranking;
 
 
     }
@@ -43,3 +28,17 @@ public class Movies {
     public double getRanking() {
         return ranking;
     }
+
+    private void setupTitlesArray(){
+        String[] titlesToAdd = {
+                "Four Lions",
+                "City of God",
+                "Home Alone 2",
+                "Step Brothers",
+                "Restless Natives",
+                "Jurassic Park",
+                "The Room",
+                "Whiplash",
+                "Fargo",
+                "Belleville Rendezvous"
+        };

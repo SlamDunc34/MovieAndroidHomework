@@ -37,6 +37,6 @@ public class MoviesTest {
             public void getLength() {
 
             }
-        }
+        };
     }
 }

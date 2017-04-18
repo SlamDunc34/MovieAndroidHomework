@@ -31,7 +31,7 @@ public class Movies {
 
 
 
-    private void setupTitlesArray(){
+    private void setupTitlesArray() {
         String[] titlesToAdd = {
                 "Four Lions",
                 "City of God",
@@ -44,6 +44,7 @@ public class Movies {
                 "Fargo",
                 "Belleville Rendezvous"
         };
+    }
 
     private void setupGenresArray() {
         String[] genresToAdd = {
@@ -58,6 +59,7 @@ public class Movies {
                 "Historical Drama",
                 "Family"
         };
+    }
 
     private void setupRankingsArray() {
         int[] rankingsToAdd = {
